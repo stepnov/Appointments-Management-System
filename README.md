@@ -4,6 +4,8 @@ The goal of this example static page is to show my basic knowledge of Javascript
 
 This example app uses HTML5, Plain Javascript, CSS3, fontawesome and google fonts.
 
+Watch the hosted version: https://stepnov.github.io/Appointments-Management-System/
+
 ### How it works
 
 Fill all inputs in forms and click the 'Add appointment' button.
