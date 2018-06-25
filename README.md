@@ -16,10 +16,10 @@ Fill all inputs in forms and click the 'Add appointment' button.
 
 ### Folders
 
-#css
+# css
 This folder contains the main.css and reset.css.
 
-#js
+# js
 This folder contains the app.js to add, filer and sort appointments.
 
 
