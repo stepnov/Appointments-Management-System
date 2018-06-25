@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+		<title>Appointments Management System</title>
+		
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	</head>
+	
+	<body>
+		
+		<header>
+			<h1>
+				Appointments Management System
+			</h1>
+		</header>
+		
+		<div class="forms">
+			
+			<div id="head">
+				<h2><i class="fas fa-plus"></i> Add appointment</h2>
+			</div>
+			
+			<form class="appointments-form">
+				
+				<p><i class="fas fa-paw"></i> Pet Name</p>
+				<input id="petname" type="text" name="name">
+				
+				<p><i class="fas fa-user-alt"></i> Owner Name</p>
+				<input id="petowner" type="text" name="owner">
+				
+				<p><i class="fas fa-table"></i> Date</p>
+				<input id="appdate" type="date" name="date">
+				
+				<p><i class="fas fa-clock"></i> Time</p>
+				<input id="apptime" type="time" name="time">
+				
+				<p><i class="fas fa-notes-medical"></i> Notes</p>
+				<input id="appnote" type="text" name="notes" placeholder="Please, indicate the patient's condition">
+				
+				<input id="btn" type="submit" name="add" value="Add Appointment">						
+			
+			</form>
+		</div>
+		
+		<!-- Sorting appointments and searching for keywords -->
+		<div class="search">
+			<select>
+				<option value="petname">Pet name</option>
+				<option value="petowner">Pet owner</option>
+				<input type="text" class="flt" placeholder="Search for keywords in notes">
+			</select>
+		</div>
+		
+		<!-- Block where appointments will be added -->
+		
+		<div id="addedAppoinments">
+			<p id="blankApt">There are no appointments yet</p>
+		</div>
+		
+		<script src="./js/app.js"></script>
+	
+	</body>
+</html>

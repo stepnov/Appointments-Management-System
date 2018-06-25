@@ -1,0 +1,177 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+header {
+	background-color: #3498db;
+	height: 50px;
+	width: 100%;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	padding-top: 12.5px;
+}
+
+#head {
+	background-color: #3498db;
+	height: 40px;
+}
+
+#head h2 {
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	padding-top: 10px;
+	text-align: center;
+}
+
+
+/* input styling */
+.forms {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #3498db;
+	border-radius: 5px;
+	height: 470px;
+	width: 70%;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+.appointments-form {
+	width: 70%;
+	margin: auto;
+}
+
+.appointments-form p {
+	margin-top: 10px;
+	font-weight: bold;
+	color: #34495e;
+}
+
+.appointments-form input {
+	height: 20px;
+	width: 30%;
+	border-radius: 5px;
+	border: solid 0.5px grey;
+	margin-top: 10px;
+}
+
+#appdate {
+	width: 30% !important;
+}
+
+#apptime {
+	width: 30% !important;
+	margin-bottom: 30px;
+}
+
+#appnote {
+	height: 50px;
+	width: 50% !important;
+}
+
+
+/* button styling */
+#btn {
+	height: 30px !important;
+	width: 30% !important;
+	background-color: #3498db;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	display: block;
+	margin-top: 25px;
+}
+
+#btn:hover {
+	cursor: pointer;
+	background-color: #9b59b6;
+}
+
+
+/* sorting and filtering styling */
+.search {
+	text-align: center;
+}
+
+select {
+	height: 30px;
+	color: white;
+	background-color: #3498db;
+	border: none;
+}
+
+select:hover {
+	cursor: pointer;
+}
+
+.flt {
+	height: 26px;
+	border: solid 0.5px grey;
+	border-radius: 5px;
+	margin-left: 20px;
+	width: 30%;
+}
+
+
+/* added appointments styling */
+#addedAppoinments {
+	margin-top: 30px;
+}
+
+#blankApt {
+	text-align: center;
+	margin-top: 20px;
+	color: #34495e;
+}
+
+#apts {
+	margin: auto;
+	margin-bottom: 30px;
+	width: 50%;
+	border: none;
+	border-radius: 5px;
+	background-color: #ecf0f1;
+}
+
+#apts h3 {
+	font-size: 20px;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+#apts p {
+	margin-left: 20px;
+	padding-bottom: 10px;
+}
+
+#apts span {
+	margin-left: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#apts div {
+	margin-left: 20px;
+}
+
+
+@media only screen and (max-width: 405px) {
+    header {
+        height: 70px;
+    }
+}
+
+@media only screen and (max-width: 703px) {
+    #btn {
+        width: 50% !important;
+    }
+}
